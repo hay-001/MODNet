@@ -1,4 +1,4 @@
-# MODNet: Multi-offset Point Cloud Denoising Network Customized for Multi-scale Patches(Accepted by PG2022)
+# MODNet: Multi-offset Point Cloud Denoising Network Customized for Multi-scale Patches(PG2022)
 
 This is our implementation of MODNet, a network that employs multi-scale geometric perception information to guide the network to utilize multi-scale information.
 <p align="center"> <img src="IMG/MODNet.png" width="75%"> </p>
