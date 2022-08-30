@@ -12,11 +12,6 @@ This is our implementation of MODNet, a network that employs multi-scale geometr
 * TensorboardX (2.0) if logging training info. 
 
 
-## The code will be released soon....
+## The code is being optimized and will be released soon.
 
 
-## Acknowledgements
-This code largely benefits from following repositories:
-* [PointNet](http://stanford.edu/~rqi/pointnet/)
-* [PCPNet](https://github.com/paulguerrero/pcpnet)
-* [Pointfilter](https://github.com/dongbo-BUAA-VR/Pointfilter)
