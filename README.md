@@ -2,10 +2,9 @@
 MODNet: Multi-offset Point Cloud Denoising Network Customized for Multi-scale Patches
 
 This is our implementation of MODNet, a network that employs multi-scale geometric perception information to guide the network to utilize multi-scale information.
-<p align="center"> <img src="IMG/multi-scale-4.jpg" width="75%"> </p>
 <p align="center"> <img src="IMG/MODNet.png" width="75%"> </p>
 
-The pipeline is built based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a patch-based version of [PointNet](http://stanford.edu/~rqi/pointnet/)). Instead of using STN for alignment, we align the input patches by aligning their principal axes of the PCA with the Cartesian space.
+
 
 ## Environment
 * Python 3.6
