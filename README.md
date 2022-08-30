@@ -31,8 +31,8 @@ pip install torch==1.5.0+cu101 torchvision==0.6.0+cu101 -f https://download.pyto
 
 Clone this repository:
 ``` bash
-git clone https://github.com/dongbo-BUAA-VR/Pointfilter.git
-cd Pointfilter
+git clone https://github.com/hay-001/MODNet.git
+cd MODNet
 ```
 
 Compile Chamfer Opertors (only for evaluation)
