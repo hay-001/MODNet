@@ -78,3 +78,4 @@ If you use our work, please cite our [paper](https://arxiv.org/abs/2002.05968):
 This code largely benefits from following repositories:
 * [PointNet](http://stanford.edu/~rqi/pointnet/)
 * [PCPNet](https://github.com/paulguerrero/pcpnet)
+* [Pointfilter](https://github.com/dongbo-BUAA-VR/Pointfilter)
