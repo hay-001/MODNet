@@ -12,7 +12,8 @@ This is our implementation of MODNet, a network that employs multi-scale geometr
 * TensorboardX (2.0) if logging training info. 
 
 ## Datasets
-You can download the datasets used in this work from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY), and copy 'Train' and 'Test' folders to `./Dataset`.
+You can download the datasets used in this work from the following [link](https://drive.google.com/file/d/118CF6liMAz-aImM9NRCqu2K2LviK-PgF/view?usp=sharing, https://drive.google.com/file/d/1FRfHwkQ3JPfndGRgY1Kyz_XWc_LgDeVe/view?usp=sharing), and copy 'Train' and 'Test' folders to `./Dataset`.
+https://drive.google.com/file/d/118CF6liMAz-aImM9NRCqu2K2LviK-PgF/view?usp=sharing, https://drive.google.com/file/d/1FRfHwkQ3JPfndGRgY1Kyz_XWc_LgDeVe/view?usp=sharing
 
 ## Setup
 Install required python packages:
