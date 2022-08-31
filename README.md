@@ -11,6 +11,21 @@ This is our implementation of MODNet, a network that employs multi-scale geometr
 * CUDA and CuDNN (CUDA 10.1 & CuDNN 7.5)
 * TensorboardX (2.0) if logging training info. 
 
+## Datasets
+You can download the datasets used in this work from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY), and copy 'Train' and 'Test' folders to `./Dataset`.
+
+## Setup
+Install required python packages:
+``` bash
+pip install numpy
+pip install scipy
+pip install plyfile
+pip install scikit-learn
+pip install tensorboardX (only for training stage)
+pip install torch==1.5.0+cu101 torchvision==0.6.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+
 Clone this repository:
 ``` bash
 git clone https://https://github.com/hay-001/MODNet.git
