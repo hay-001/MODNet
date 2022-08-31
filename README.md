@@ -71,7 +71,7 @@ python eval_p2m.py
 ```
 
 ## Citation
-If you use our work, please cite our [paper](https://arxiv.org/abs/2208.14160)
+If you use our code, please consider citing our [paper](https://arxiv.org/abs/2208.14160)
 
 
 ## Acknowledgements
