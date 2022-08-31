@@ -38,20 +38,29 @@ cd MODNet
 python test.py
 ```
   
+## Evaluation（CD、MSE）
+Before running the `eval.py`, the results should be saved at `./Summary/Test`:
+``` bash
+cd MODNet
+python eval.py
+```
 
+## Evaluation（P2M）
+Before running the `eval_p2m.py`, the results should be saved at `./Summary/Test`.
+You may need to recreate a envs(see：https://github.com/luost26/score-denoise) to run this script `eval_p2m.py`.
+
+``` bash
+cd MODNet
+python eval_p2m.py
+```
 
 ## Citation
-If you use our work, please cite our [paper](https://arxiv.org/abs/2002.05968):
-```
-@article{zhang2020pointfilter,
-  title={Pointfilter: Point cloud filtering via encoder-decoder modeling},
-  author={Zhang, Dongbo and Lu, Xuequan and Qin, Hong and He, Ying},
-  journal={IEEE Transactions on Visualization and Computer Graphics},
-  year={2020}
-}
+If you use our work, please cite our [paper](https://arxiv.org/abs/2208.14160)
+
 
 ## Acknowledgements
 This code largely benefits from following repositories:
 * [PointNet](http://stanford.edu/~rqi/pointnet/)
 * [PCPNet](https://github.com/paulguerrero/pcpnet)
 * [Pointfilter](https://github.com/dongbo-BUAA-VR/Pointfilter)
+* [score-denoise](https://github.com/luost26/score-denoise)
