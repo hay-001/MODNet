@@ -71,8 +71,14 @@ python eval_p2m.py
 ```
 
 ## Citation
-If you use our code, please consider citing our [paper](https://arxiv.org/abs/2208.14160)
+If you use our code, please consider citing our paper:
 
+  title={MODNet: Multi-offset Point Cloud Denoising Network Customized for Multi-scale Patches},
+  author={Anyi Huang and Qian Xie and Zhoutao Wang and Dening Lu and Mingqiang Wei and Jun Wang},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2208.14160}
+}
 
 ## Acknowledgements
 This code largely benefits from following repositories:
