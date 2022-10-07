@@ -73,12 +73,14 @@ python eval_p2m.py
 ## Citation
 If you use our code, please consider citing our [paper](https://arxiv.org/abs/2208.14160):
 ```
-@article{Huang2022MODNetMP,
-  title={MODNet: Multi-offset Point Cloud Denoising Network Customized for Multi-scale Patches},
-  author={Anyi Huang and Qian Xie and Zhoutao Wang and Dening Lu and Mingqiang Wei and Jun Wang},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2208.14160}
+@article {10.1111:cgf.14661,
+journal = {Computer Graphics Forum},
+title = {{MODNet: Multi-offset Point Cloud Denoising Network Customized for Multi-scale Patches}},
+author = {Huang, Anyi and Xie, Qian and Wang, Zhoutao and Lu, Dening and Wei, Mingqiang and Wang, Jun},
+year = {2022},
+publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+ISSN = {1467-8659},
+DOI = {10.1111/cgf.14661}
 }
 ```
 
