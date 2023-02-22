@@ -47,7 +47,7 @@ python train.py
 ```
 
 ## Test with Pre-trained Model
-You can download the Pre-trained Model from the following  [Pre-reained model] (https://drive.google.com/file/d/1nfUHl6-Z3NVjt6rBMhslSwKrO6jK9x8C/view?usp=sharing), and you should copy the Pre-trained model `model_full_ae.pth` to`./Summary/pre_train_model`.
+You can download the Pre-trained Model from the following [Pre-trained model](https://drive.google.com/file/d/1nfUHl6-Z3NVjt6rBMhslSwKrO6jK9x8C/view?usp=sharing), and you should copy the Pre-trained model `model_full_ae.pth` to`./Summary/pre_train_model`.
 Use the script `test.py` to test our test dataset (the results will be saved at `./Summary/Test`):
 ``` bash
 cd MODNet
