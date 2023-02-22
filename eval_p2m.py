@@ -59,7 +59,7 @@ def Eval_With_P2M(file_ads,a):
 
         meshes=load_off(os.path.join('./Dataset/Test/gt_mesh', shape_name[:-(a+6)] + '.off'))
         pred_pts = np.load(os.path.join(file_ads + file[i],
-                                        shape_name + '_pred_iter_1_total' + '.npy'))
+                                        shape_name + '_pred_iter_1' + '.npy'))
         pcl = pred_pts
         pcl=torch.from_numpy(pcl).to('cuda:0')
         verts = meshes['verts'].to('cuda:0')
