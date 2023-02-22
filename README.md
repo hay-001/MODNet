@@ -46,6 +46,14 @@ cd MODNet
 python train.py
 ```
 
+## Test with Pre-trained Model
+You can download the Pre-trained Model from the following (https://drive.google.com/file/d/1nfUHl6-Z3NVjt6rBMhslSwKrO6jK9x8C/view?usp=sharing), and you should copy the Pre-trained model `model_full_ae.pth` to`./Summary/pre_train_model`.
+Use the script `test.py` to test our test dataset (the results will be saved at `./Summary/Test`):
+``` bash
+cd MODNet
+python test.py
+```
+
 ## Test with Re-trained Model
 Before running the `test.py`, you should copy the re-trained model `model_full_ae_x.pth` to `./Summary/pre_train_model` and rename it to `model_full_ae.pth`.
 Use the script `test.py` to test our test dataset (the results will be saved at `./Summary/Test`):
