@@ -74,8 +74,8 @@ if __name__ == '__main__':
         else:
             nu=6
 
-        cd=Eval_With_Charmfer_Distance(file_ads, nu, '_total')
-        mse=Eval_With_Mean_Square_Error(file_ads, nu, '_total')
+        cd=Eval_With_Charmfer_Distance(file_ads, nu, '')
+        mse=Eval_With_Mean_Square_Error(file_ads, nu, '')
 
         cd_mean.append(cd)
         mse_mean.append(mse)
